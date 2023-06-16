@@ -1,20 +1,20 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
 * main - Entry poiter
 *
-* Decription :prints the alphabet in lowercase, followed by a new line
+* Decription : print the alphabet in lowercase, followed by new line.
+*
 * Return: Alwyas 0 (Success)
 */
+
 int main(void)
 {
-	int x;
+	char a;
 
-	for (x = 97; x <= 122; x++)
-		putchar (x);
-	for (x = 65; x <= 90; x++)
-		putchar ('X');
+	for (a = 97 ; a <= 122 ; a++)
+		putchar(a);
 	putchar('\n');
-		return (0);
+return (0);
 }
