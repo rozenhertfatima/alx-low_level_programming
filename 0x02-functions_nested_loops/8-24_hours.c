@@ -4,19 +4,28 @@
  *
  *Return: NO return.
  */
+void jack_bauer(void)
+{
+	int n, m, k, h;
 
-	void jackBauer(void)
+	for (n = 0 ; n <= 2 ; n++)
 	{
-		int h , m;
-
-		for (h = 0; h < 24; h++)
+		for (m = 0 ; m <= 9 ; m++)
 		{
-			for (m  = 0; m  < 60; m++)
+			if (n == 2 && n == 4)
+				break;
+			for (k = 0 ; k <= 5 ; k++)
 			{
-				_putchar("m");
-
-				_putchar("h");
+				for (h = 0 ; h <= 9 ; h++)
+				{
+					_putchar(n + 48);
+					_putchar(m + 48);
+					_putchar(':');
+					_putchar(k + 48);
+					_putchar(h + 48);
+					_putchar('\n');
+				}
 			}
 		}
 	}
-	return (0);
+}
