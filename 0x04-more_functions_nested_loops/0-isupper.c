@@ -7,14 +7,10 @@
  */
 int _isupper(int c)
 {
-	if (c > 0)
-	{
-		_putchar('A');
-		return (1);
-	}
-	else
-	{
-		_putchar('a');
+
+		if (c >= 'A' && c <= 'Z')
+			return (1);
+
+
 		return (0);
 	}
-}
