@@ -9,3 +9,4 @@ void more_numbers(void);
  void print_diagonal(int n);
  void print_square(int size);
  int main(void);
+ void print_triangle(int size);
